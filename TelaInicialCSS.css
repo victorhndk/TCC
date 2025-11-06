@@ -1,0 +1,261 @@
+*{ 
+	margin: 0;
+	
+	padding: 0;
+	
+	box-sizing: borderbox;
+	
+} 
+
+body {
+	
+	background: URL('imagens/fundo.png');
+	background-size: 110%;
+	
+}
+
+body h1, h2, h3, h4 {
+
+	font-family: 'Montserrat', sans-serif;
+	
+	margin-bottom: 5px;
+	
+	
+}
+
+body p {
+	
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.cabecinha {
+	
+	background-color: #020224;
+	
+    padding: 10px 30px;
+	
+    display: flex;
+	
+	color: white;
+	
+	list-style: none;
+	
+	justify-content: space-between;
+	
+	align-items: center;
+		
+	justify-content: space-between;
+		
+}
+
+.cabecinha .logo {
+	
+	text-decoration: none ;
+	
+	font-size: 35px ;
+	
+	font-weight: 600 ;
+	
+	margin-right: 63%;
+	
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.cabecinha img {
+	
+	margin-right: 10px;
+
+}
+
+.cabecinha a {
+
+    text-decoration: none;
+	
+	background: #161678;
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	
+    color: white;
+	
+	font-size: 22px;
+	
+    font-weight: bold;
+	
+    padding: 10px 15px;
+	
+	margin-left: 10px;
+	
+    border-radius: 5px;
+	
+    transition: transform 0.4s;
+
+}
+
+.cabecinha a:hover {
+	
+	background: #39398b;
+	
+    color: white;
+	
+	transform: translateY(-2px);
+	
+}
+
+.banner {
+	
+	height: 80vh;
+	
+	background-position: center;
+	
+	display: flex;
+	
+	align-items: center;
+	
+	justify-content: center;
+	
+	text-align: center;
+	
+	color: white;
+	
+	word-spacing: 1px;
+	
+	line-height: 1.3;
+	
+	
+}
+
+.banner img {
+	
+	margin-right: 15px;
+
+}
+
+.titulo {
+	
+	font-size: 32px;
+	
+	font-weight: 100px;
+	
+	margin-bottom: 15px;
+	
+}
+
+.container {
+	
+	width: 500px;
+	
+    margin: 10px;
+    
+	font-family: 'Source Sans Pro', sans-serif;
+	
+    color: white;
+	
+	font-size: 22px;
+	
+}
+
+.botao {
+	
+	margin: 10px;
+	
+}
+
+.botao button{
+	
+	height: 70px;
+	
+	width: 300px;
+	
+	border-radius: 5px;
+	
+	border: 0;
+	
+	margin: 10px;
+	
+	font-size: 30px;
+	
+	font-weight: 600px;
+	
+	padding: 10px 10px;
+	
+    background-color: #161678;
+	
+	color: white;
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	
+	transition: transform 0.4s;
+	
+}
+
+.botao button:hover {
+	
+	color: white;
+	
+	background: #39398b;
+	
+	transform: translateY(-5px);
+	
+}
+
+.pezinho {
+	
+	background-color: #020224;
+	
+    padding: 10px 30px;
+	
+    display: flex;
+	
+	color: white;
+	
+	list-style: none;
+	
+	justify-content: center;
+	
+	align-items: center;
+	
+}
+
+.eu {
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	
+	color: white;
+	
+	text-align: justify;
+	
+	font-size: 22px;
+	
+	text-decoration: bold;
+	
+}
+
+.eu a {
+	
+	text-decoration: none;
+	
+	background: #161678;
+	
+	color: white;
+	
+	border-radius: 15px;
+	
+	border-style: none;
+	
+	padding: 8px 10px;
+	
+	font-style: bold;
+	
+    transition: 0.4s;
+	
+}
+
+.eu a:hover {
+	
+	background: #39398b;
+	
+    color: white;
+
+}
